@@ -16,7 +16,7 @@
 
 ### Листинг программы (`trapezoid.cpp`)
 
-\`\`\`cpp
+```cpp
 #include <iostream>
 #include <locale.h>
 using namespace std;
@@ -27,7 +27,6 @@ int main() {
   while (1){
     cout << "Выберите, что вы хотите найти у трапеции:" << endl << "1.Периметр" << endl << "2.Площадь" << endl << "3.Длина средней линии" << endl;
     cin >> choice;
-
     switch (choice) {
     case 1: {
       double side1, side2, side3, side4;
@@ -57,7 +56,8 @@ int main() {
     }
     c = getchar();
   }
-}\`\`\`
+}
+```
 
 # Консольное приложение для расчета параметров прямоугольника
 
