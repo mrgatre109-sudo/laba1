@@ -16,7 +16,7 @@
 
 ### Листинг программы (`trapezoid.cpp`)
 
-```cpp
+\`\`\`cpp
 #include <iostream>
 #include <locale.h>
 using namespace std;
@@ -57,7 +57,7 @@ int main() {
     }
     c = getchar();
   }
-}
+}\`\`\`
 
 # Консольное приложение для расчета параметров прямоугольника
 
